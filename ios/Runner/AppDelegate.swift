@@ -7,7 +7,18 @@ import Flutter
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
-    GeneratedPluginRegistrant.register(with: self)
-    return super.application(application, didFinishLaunchingWithOptions: launchOptions)
+  GeneratedPluginRegistrant.register(with: self)
+        
+           
+        // Register the custom Flutter platform view
+        if let registrar = self.registrar(forPlugin: "KSPlayerPlugin") {
+            let factory = KSPLayerViewFactory(messenger: registrar.messenger())
+            registrar.register(factory, withId: "KSPLayerView")
+        } else {
+            
+            print("Error: Could not find registrar")
+        }
+        
+        return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
 }
