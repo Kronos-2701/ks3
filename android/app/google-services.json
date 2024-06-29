@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "60430010007",
+    "project_id": "flutter-login-bc9cc",
+    "storage_bucket": "flutter-login-bc9cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60430010007:android:0addbcd01d7d310780cbd2",
+        "android_client_info": {
+          "package_name": "com.example.ks3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60430010007-7sdvg3fcdklmmggfpooq2o5nbi8ov2lt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkw8LrfLSZRlEfZ1dmvnaUC7uFuIqr1Tk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60430010007-7sdvg3fcdklmmggfpooq2o5nbi8ov2lt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "60430010007-0m77hqqdt1aplggsema7jlctua5gts08.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.quantam"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60430010007:android:42d9e95dbef2e4f480cbd2",
+        "android_client_info": {
+          "package_name": "com.example.quantam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60430010007-o97freuafqeitfe6ff5kialqc8mv3act.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quantam",
+            "certificate_hash": "c2993a7ba99bffeb3d5cc597b7ba83f65830d35b"
+          }
+        },
+        {
+          "client_id": "60430010007-7sdvg3fcdklmmggfpooq2o5nbi8ov2lt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkw8LrfLSZRlEfZ1dmvnaUC7uFuIqr1Tk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60430010007-7sdvg3fcdklmmggfpooq2o5nbi8ov2lt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "60430010007-0m77hqqdt1aplggsema7jlctua5gts08.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.quantam"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
