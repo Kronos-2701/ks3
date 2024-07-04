@@ -45,10 +45,12 @@ public class KSPLayerView: NSObject, FlutterPlatformView {
         KSOptions.isSecondOpen = true
         KSOptions.isAccurateSeek = true
         let options = KSOptions()
-
+        
         if let videoUrl = videoUrl, let url = URL(string: videoUrl) {
-            // playerView.set(url: url, options: options)
-            playerView.set(resource: KSPlayerResource(url: url, options:options))
+             
+            playerView.set(
+                
+                resource: KSPlayerResource(url: url, options:options))
         } else {
             print("Invalid video URL")
         }
